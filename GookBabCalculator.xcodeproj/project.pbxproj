@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EEED41E690A175091E87984 /* Pods_GookBabCalculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7BC2E441FA8AAB8489F0246 /* Pods_GookBabCalculator.framework */; };
+		CA6FDB67235F127900B79BA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6FDB66235F127900B79BA9 /* AppDelegate.swift */; };
+		CA6FDB69235F127900B79BA9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6FDB68235F127900B79BA9 /* SceneDelegate.swift */; };
+		CA6FDB6E235F127900B79BA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA6FDB6C235F127900B79BA9 /* Main.storyboard */; };
+		CA6FDB70235F127D00B79BA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA6FDB6F235F127D00B79BA9 /* Assets.xcassets */; };
+		CA6FDB73235F127D00B79BA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA6FDB71235F127D00B79BA9 /* LaunchScreen.storyboard */; };
+		CA6FDB7E235F127D00B79BA9 /* GookBabCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6FDB7D235F127D00B79BA9 /* GookBabCalculatorTests.swift */; };
+		CA92E3E4236351B800854987 /* SpecialPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA92E3E3236351B800854987 /* SpecialPrice.swift */; };
+		CA92E3E62363563600854987 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA92E3E52363563600854987 /* InfoViewController.swift */; };
+		CA92E3E823648DD300854987 /* OpenSourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA92E3E723648DD300854987 /* OpenSourceViewController.swift */; };
+		CA92E3EA236496BA00854987 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CA92E3E9236496BA00854987 /* GoogleService-Info.plist */; };
+		CA92E3EC2364AB3900854987 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA92E3EB2364AB3800854987 /* MainViewController.swift */; };
+		FA626FFCC5BD0B7EBEC55BF7 /* Pods_GookBabCalculatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9D90104D820775E45DE60D1 /* Pods_GookBabCalculatorTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA6FDB7A235F127D00B79BA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA6FDB5B235F127900B79BA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA6FDB62235F127900B79BA9;
+			remoteInfo = GookBabCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		075EFCAB27B0F7D47A570350 /* Pods-GookBabCalculatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GookBabCalculatorTests.release.xcconfig"; path = "Target Support Files/Pods-GookBabCalculatorTests/Pods-GookBabCalculatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		7CA5366C635FC8DCF7973E80 /* Pods-GookBabCalculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GookBabCalculator.debug.xcconfig"; path = "Target Support Files/Pods-GookBabCalculator/Pods-GookBabCalculator.debug.xcconfig"; sourceTree = "<group>"; };
+		B7BC2E441FA8AAB8489F0246 /* Pods_GookBabCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GookBabCalculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA6FDB63235F127900B79BA9 /* 국밥계산기.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "국밥계산기.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA6FDB66235F127900B79BA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA6FDB68235F127900B79BA9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CA6FDB6D235F127900B79BA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA6FDB6F235F127D00B79BA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA6FDB72235F127D00B79BA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA6FDB74235F127D00B79BA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA6FDB79235F127D00B79BA9 /* GookBabCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GookBabCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA6FDB7D235F127D00B79BA9 /* GookBabCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GookBabCalculatorTests.swift; sourceTree = "<group>"; };
+		CA6FDB7F235F127D00B79BA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA92E3E3236351B800854987 /* SpecialPrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialPrice.swift; sourceTree = "<group>"; };
+		CA92E3E52363563600854987 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		CA92E3E723648DD300854987 /* OpenSourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenSourceViewController.swift; sourceTree = "<group>"; };
+		CA92E3E9236496BA00854987 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CA92E3EB2364AB3800854987 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		D8A5C51782C47FA091AFADCD /* Pods-GookBabCalculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GookBabCalculator.release.xcconfig"; path = "Target Support Files/Pods-GookBabCalculator/Pods-GookBabCalculator.release.xcconfig"; sourceTree = "<group>"; };
+		E41BC1E279534FED26B8E3DB /* Pods-GookBabCalculatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GookBabCalculatorTests.debug.xcconfig"; path = "Target Support Files/Pods-GookBabCalculatorTests/Pods-GookBabCalculatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E9D90104D820775E45DE60D1 /* Pods_GookBabCalculatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GookBabCalculatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA6FDB60235F127900B79BA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EEED41E690A175091E87984 /* Pods_GookBabCalculator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA6FDB76235F127D00B79BA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA626FFCC5BD0B7EBEC55BF7 /* Pods_GookBabCalculatorTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		506501088F443C2ECD156387 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7CA5366C635FC8DCF7973E80 /* Pods-GookBabCalculator.debug.xcconfig */,
+				D8A5C51782C47FA091AFADCD /* Pods-GookBabCalculator.release.xcconfig */,
+				E41BC1E279534FED26B8E3DB /* Pods-GookBabCalculatorTests.debug.xcconfig */,
+				075EFCAB27B0F7D47A570350 /* Pods-GookBabCalculatorTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8CE31743DFF9566912DF2AD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7BC2E441FA8AAB8489F0246 /* Pods_GookBabCalculator.framework */,
+				E9D90104D820775E45DE60D1 /* Pods_GookBabCalculatorTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA6FDB5A235F127900B79BA9 = {
+			isa = PBXGroup;
+			children = (
+				CA6FDB65235F127900B79BA9 /* GookBabCalculator */,
+				CA6FDB7C235F127D00B79BA9 /* GookBabCalculatorTests */,
+				CA6FDB64235F127900B79BA9 /* Products */,
+				506501088F443C2ECD156387 /* Pods */,
+				8CE31743DFF9566912DF2AD4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CA6FDB64235F127900B79BA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA6FDB63235F127900B79BA9 /* 국밥계산기.app */,
+				CA6FDB79235F127D00B79BA9 /* GookBabCalculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA6FDB65235F127900B79BA9 /* GookBabCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				CA6FDB66235F127900B79BA9 /* AppDelegate.swift */,
+				CA6FDB68235F127900B79BA9 /* SceneDelegate.swift */,
+				CA92E3E52363563600854987 /* InfoViewController.swift */,
+				CA6FDB6C235F127900B79BA9 /* Main.storyboard */,
+				CA92E3EB2364AB3800854987 /* MainViewController.swift */,
+				CA6FDB6F235F127D00B79BA9 /* Assets.xcassets */,
+				CA6FDB71235F127D00B79BA9 /* LaunchScreen.storyboard */,
+				CA6FDB74235F127D00B79BA9 /* Info.plist */,
+				CA92E3E9236496BA00854987 /* GoogleService-Info.plist */,
+				CA92E3E3236351B800854987 /* SpecialPrice.swift */,
+				CA92E3E723648DD300854987 /* OpenSourceViewController.swift */,
+			);
+			path = GookBabCalculator;
+			sourceTree = "<group>";
+		};
+		CA6FDB7C235F127D00B79BA9 /* GookBabCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA6FDB7D235F127D00B79BA9 /* GookBabCalculatorTests.swift */,
+				CA6FDB7F235F127D00B79BA9 /* Info.plist */,
+			);
+			path = GookBabCalculatorTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA6FDB62235F127900B79BA9 /* GookBabCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA6FDB82235F127D00B79BA9 /* Build configuration list for PBXNativeTarget "GookBabCalculator" */;
+			buildPhases = (
+				C816EE05D367D4898A98A73E /* [CP] Check Pods Manifest.lock */,
+				CA6FDB5F235F127900B79BA9 /* Sources */,
+				CA6FDB60235F127900B79BA9 /* Frameworks */,
+				CA6FDB61235F127900B79BA9 /* Resources */,
+				21B4141EE022A4F8E980B6C9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GookBabCalculator;
+			productName = GookBabCalculator;
+			productReference = CA6FDB63235F127900B79BA9 /* 국밥계산기.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA6FDB78235F127D00B79BA9 /* GookBabCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA6FDB85235F127D00B79BA9 /* Build configuration list for PBXNativeTarget "GookBabCalculatorTests" */;
+			buildPhases = (
+				BD786432D87CBCBB61837C63 /* [CP] Check Pods Manifest.lock */,
+				CA6FDB75235F127D00B79BA9 /* Sources */,
+				CA6FDB76235F127D00B79BA9 /* Frameworks */,
+				CA6FDB77235F127D00B79BA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA6FDB7B235F127D00B79BA9 /* PBXTargetDependency */,
+			);
+			name = GookBabCalculatorTests;
+			productName = GookBabCalculatorTests;
+			productReference = CA6FDB79235F127D00B79BA9 /* GookBabCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA6FDB5B235F127900B79BA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = devming;
+				TargetAttributes = {
+					CA6FDB62235F127900B79BA9 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					CA6FDB78235F127D00B79BA9 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = CA6FDB62235F127900B79BA9;
+					};
+				};
+			};
+			buildConfigurationList = CA6FDB5E235F127900B79BA9 /* Build configuration list for PBXProject "GookBabCalculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA6FDB5A235F127900B79BA9;
+			productRefGroup = CA6FDB64235F127900B79BA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA6FDB62235F127900B79BA9 /* GookBabCalculator */,
+				CA6FDB78235F127D00B79BA9 /* GookBabCalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA6FDB61235F127900B79BA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6FDB73235F127D00B79BA9 /* LaunchScreen.storyboard in Resources */,
+				CA92E3EA236496BA00854987 /* GoogleService-Info.plist in Resources */,
+				CA6FDB70235F127D00B79BA9 /* Assets.xcassets in Resources */,
+				CA6FDB6E235F127900B79BA9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA6FDB77235F127D00B79BA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21B4141EE022A4F8E980B6C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GookBabCalculator/Pods-GookBabCalculator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GookBabCalculator/Pods-GookBabCalculator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GookBabCalculator/Pods-GookBabCalculator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD786432D87CBCBB61837C63 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GookBabCalculatorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C816EE05D367D4898A98A73E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GookBabCalculator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA6FDB5F235F127900B79BA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA92E3E4236351B800854987 /* SpecialPrice.swift in Sources */,
+				CA6FDB67235F127900B79BA9 /* AppDelegate.swift in Sources */,
+				CA6FDB69235F127900B79BA9 /* SceneDelegate.swift in Sources */,
+				CA92E3EC2364AB3900854987 /* MainViewController.swift in Sources */,
+				CA92E3E62363563600854987 /* InfoViewController.swift in Sources */,
+				CA92E3E823648DD300854987 /* OpenSourceViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA6FDB75235F127D00B79BA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6FDB7E235F127D00B79BA9 /* GookBabCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA6FDB7B235F127D00B79BA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA6FDB62235F127900B79BA9 /* GookBabCalculator */;
+			targetProxy = CA6FDB7A235F127D00B79BA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA6FDB6C235F127900B79BA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA6FDB6D235F127900B79BA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA6FDB71235F127D00B79BA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA6FDB72235F127D00B79BA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA6FDB80235F127D00B79BA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA6FDB81235F127D00B79BA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA6FDB83235F127D00B79BA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CA5366C635FC8DCF7973E80 /* Pods-GookBabCalculator.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = HGQ9YZ4HTR;
+				INFOPLIST_FILE = GookBabCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devming.GookBabCalculator;
+				PRODUCT_NAME = "국밥계산기";
+				PROVISIONING_PROFILE_SPECIFIER = gookbabcalc;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CA6FDB84235F127D00B79BA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8A5C51782C47FA091AFADCD /* Pods-GookBabCalculator.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = HGQ9YZ4HTR;
+				INFOPLIST_FILE = GookBabCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devming.GookBabCalculator;
+				PRODUCT_NAME = "국밥계산기";
+				PROVISIONING_PROFILE_SPECIFIER = gookbabcalc;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CA6FDB86235F127D00B79BA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E41BC1E279534FED26B8E3DB /* Pods-GookBabCalculatorTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGQ9YZ4HTR;
+				INFOPLIST_FILE = GookBabCalculatorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devming.GookBabCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GookBabCalculator.app/GookBabCalculator";
+			};
+			name = Debug;
+		};
+		CA6FDB87235F127D00B79BA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 075EFCAB27B0F7D47A570350 /* Pods-GookBabCalculatorTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGQ9YZ4HTR;
+				INFOPLIST_FILE = GookBabCalculatorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devming.GookBabCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GookBabCalculator.app/GookBabCalculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA6FDB5E235F127900B79BA9 /* Build configuration list for PBXProject "GookBabCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA6FDB80235F127D00B79BA9 /* Debug */,
+				CA6FDB81235F127D00B79BA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA6FDB82235F127D00B79BA9 /* Build configuration list for PBXNativeTarget "GookBabCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA6FDB83235F127D00B79BA9 /* Debug */,
+				CA6FDB84235F127D00B79BA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA6FDB85235F127D00B79BA9 /* Build configuration list for PBXNativeTarget "GookBabCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA6FDB86235F127D00B79BA9 /* Debug */,
+				CA6FDB87235F127D00B79BA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA6FDB5B235F127900B79BA9 /* Project object */;
+}
